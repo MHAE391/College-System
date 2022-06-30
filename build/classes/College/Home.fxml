@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="750.0" maxWidth="1251.0" minHeight="690.0" minWidth="1247.0" prefHeight="750.0" prefWidth="1247.0" style="-fx-background-color: #2c3a43;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="College.HomeController">
+   <children>
+      <Pane fx:id="viewPane" layoutX="170.0" layoutY="-3.0" prefHeight="752.0" prefWidth="1076.0" style="-fx-background-color: #171717;" />
+      <Pane layoutY="126.0" prefHeight="624.0" prefWidth="171.0" style="-fx-background-color: Black;">
+         <children>
+            <ImageView fitHeight="124.0" fitWidth="191.0" layoutX="-20.0" layoutY="59.0" onMouseClicked="#Students" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imges/4.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="113.0" fitWidth="115.0" layoutX="28.0" layoutY="199.0" onMouseClicked="#Course" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imges/cc.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="113.0" fitWidth="137.0" layoutX="29.0" layoutY="312.0" onMouseClicked="#Setting" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imges/Setting.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="105.0" fitWidth="99.0" layoutX="30.0" layoutY="463.0" onMouseClicked="#LogOut" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Imges/log.png" />
+               </image>
+            </ImageView>
+         </children></Pane>
+      <ImageView fitHeight="171.0" fitWidth="187.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Imges/FCI.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</Pane>

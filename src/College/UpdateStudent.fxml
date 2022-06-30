@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="603.0" prefWidth="600.0" style="-fx-background-color: #171717;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="College.UpdateStudentController">
+   <children>
+      <Label layoutX="33.0" layoutY="23.0" text="Student Id" textFill="#ffc900">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="Id" layoutX="240.0" layoutY="27.0" prefHeight="31.0" prefWidth="256.0" promptText="student id" />
+      <Label fx:id="Sclass" layoutX="14.0" layoutY="221.0" text="Student Class" textFill="#ffc900">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="Sphone" layoutX="14.0" layoutY="164.0" text="Student Phone" textFill="#ffc900">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="SName" layoutX="16.0" layoutY="103.0" text="Student Name" textFill="#ffc900">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="Sgpa" layoutX="14.0" layoutY="283.0" text="Student GPA" textFill="#ffc900">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Button fx:id="search" layoutX="516.0" layoutY="28.0" mnemonicParsing="false" onAction="#Search" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: #ffc900;" text="Search">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Label fx:id="NameR" layoutX="240.0" layoutY="105.0" prefHeight="17.0" prefWidth="231.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font></Label>
+      <Label fx:id="GpaR" layoutX="240.0" layoutY="285.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font></Label>
+      <Label fx:id="ClassR" layoutX="240.0" layoutY="223.0" prefHeight="36.0" prefWidth="201.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font></Label>
+      <Label fx:id="PhoneR" layoutX="240.0" layoutY="166.0" prefHeight="36.0" prefWidth="201.0" text="Label" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font></Label>
+      <Label fx:id="Wrong" layoutX="368.0" layoutY="194.0" text="Label" textFill="RED">
+         <font>
+            <Font name="System Bold" size="25.0" />
+         </font></Label>
+      <Label fx:id="Ngpa" layoutX="14.0" layoutY="494.0" text="New GPA" textFill="#ffc900">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="NClass" layoutX="14.0" layoutY="429.0" text="New Class" textFill="#ffc900">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <Label fx:id="Nphone" layoutX="14.0" layoutY="365.0" text="New Phone" textFill="#ffc900">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+      <TextField fx:id="GPAN" layoutX="221.0" layoutY="498.0" prefHeight="31.0" prefWidth="256.0" promptText="New GPA" />
+      <TextField fx:id="ClassN" layoutX="221.0" layoutY="433.0" prefHeight="31.0" prefWidth="256.0" promptText="New Class" />
+      <TextField fx:id="PhonN" layoutX="221.0" layoutY="369.0" prefHeight="31.0" prefWidth="256.0" promptText="New Phone" />
+      <Button fx:id="submit" layoutX="504.0" layoutY="559.0" mnemonicParsing="false" onAction="#Submit" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: #ffc900;" text="Submit">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+      <Button fx:id="update" layoutX="504.0" layoutY="322.0" mnemonicParsing="false" onAction="#Update" prefHeight="30.0" prefWidth="70.0" style="-fx-background-color: #ffc900;" text="Update">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
